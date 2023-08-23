@@ -1,20 +1,23 @@
-import logo from './logo.svg';
+
+import { Container } from 'reactstrap';
 import './App.css';
-import Navbar from './components/navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-
-
+import Card from './components/Card';
+import Nav from './components/Nav';
+import Slider from './components/Slider';
+import Menu from './components/Menu';
 function App() {
 
-  
+
   return (
-    <Router>
-      <div className="App">
-        <Navbar /> 
-       
-      </div>
-    </Router>
+    <div>
+      <Menu />
+      <Container>
+        <Slider/>
+        
+      </Container>
+
+
+    </div>
   );
 }
 
