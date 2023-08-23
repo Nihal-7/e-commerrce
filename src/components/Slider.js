@@ -14,7 +14,7 @@ export default function Slider() {
                 <div class="carousel-item active" >
                     <img src="https://media.istockphoto.com/id/1215812761/photo/internet-shopping-with-laptop.jpg?s=1024x1024&w=is&k=20&c=cO7GUlxT4HR7v-EDjelC92RfNLqbR_7DH9reoGuPE1g=" class="d-block w-100" alt="..." />
                 </div>
-                <div class="carousel-item">
+                <div class="">
                     <img src="https://media.istockphoto.com/id/1389684903/photo/man-shopping-at-online-store-on-laptop-computer.jpg?s=1024x1024&w=is&k=20&c=mlp1vw1xvyNpKZIRooMs5-NdQf9sCMN4omdbg35FCUY=" class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item">
